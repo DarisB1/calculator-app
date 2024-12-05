@@ -118,7 +118,7 @@ button {
     box-shadow: 0 4px 0 0 #404e73;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 321px) {
     header {
         width: 23%;
         margin: auto;

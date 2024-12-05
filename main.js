@@ -15,5 +15,13 @@ suppr.addEventListener("click", () => {
 });
 
 egale.addEventListener("click", () => {
-    
+    try {
+        p.innerText = eval(p.innerText);
+    } catch (error) {
+        alert("Error");
+    }
+});
+
+reset.addEventListener("click", () => {
+    p.innerText = "";
 });
